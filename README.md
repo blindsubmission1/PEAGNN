@@ -98,7 +98,7 @@ The code is based on [PyTorch Geometric](https://github.com/rusty1s/pytorch_geom
 ### Download the datasets
 #### MovieLens dataset
 
-Dataset will be downloaded during experiment execution and saved in ``graph_recsys_benchmark/checkpoint/data`` folder. No need to explicity download the dataset. 
+Dataset will be downloaded during experiment execution and saved in ``graph_recsys_benchmark/checkpoint/data`` folder. No need to explicity download the dataset. Weights of trained Movielens-small can be found dataset [here](experiments/checkpoint/weights/Movielenslatest-small).
 
 #### Yelp dataset
 
@@ -127,6 +127,8 @@ For training other baselines e.g. KGAT on MovieLens-small dataset run the follow
 ```
 python3 kgat_solver_bpr.py --dataset=Movielens --dataset_name=latest-small --num_core=10 --num_feat_core=10 --sampling_strategy=unseen --entity_aware=false --dropout=0.1 --emb_dim=64 --hidden_size=64 --entity_aware_coff=0.1 --init_eval=false --gpu_idx=0 --runs=5 --epochs=30 --batch_size=1024 --save_every_epoch=26
 ```
+
+
 
 # Pre-Trained Models available for download
 
