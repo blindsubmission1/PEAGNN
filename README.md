@@ -1,5 +1,5 @@
 # Metapath- and Entity-aware Graph Neural Network for Recommendation
-## Code is available.
+## Code is available
 
 ## Introduction
 
@@ -39,7 +39,7 @@ python3 setup.py install
 
 The basic skeleton of our source code will look like this :
 ```bash
-graph_recsys_benchmark
+
 ├── datasets
 │   └── Yelp
 │      └──  yelp_dataset.tar
@@ -74,7 +74,6 @@ graph_recsys_benchmark
 │   └── **/*.py
 ├── images
 │   └── **/*.png
-├── .gitignore
 ├── license.txt
 ├── README.md
 ├── requirements.txt
@@ -98,17 +97,17 @@ The code is based on [PyTorch Geometric](https://github.com/rusty1s/pytorch_geom
 ### Download the datasets
 #### MovieLens dataset
 
-Dataset will be downloaded during experiment execution and saved in ``graph_recsys_benchmark/checkpoint/data`` folder. No need to explicity download the dataset. Weights of trained Movielens-small dataset can be found [here](experiments/checkpoint/weights/Movielenslatest-small).
+Dataset will be downloaded during experiment execution and saved in [``experiments/checkpoint/data``](experiments/checkpoint/data) folder. No need to explicity download the dataset. Weights of pre-trained Movielens-small dataset can be found [here](experiments/checkpoint/weights/Movielenslatest-small).
 
 #### Yelp dataset
 
 Download the dataset via this [link](https://www.yelp.com/dataset/download) and save ``yelp_dataset.tar``  in the ``datasets/Yelp`` folder.
-Like MovieLens dataset, the extracted raw files will be saved in ``graph_recsys_benchmark/checkpoint/data`` folder during execution.
+Like MovieLens dataset, the extracted raw files will be saved in [``experiments/checkpoint/data``](experiments/checkpoint/data) folder during execution.
 
 ## Running the Code
 
-For training and testing PEAGNN and baseline models, pass the appropriate arguments to the ``experiments`` files.
-To reproduce the benchmark results for particular dataset, use the arguments as mentioned in ``experiments/scripts`` folder.
+For training and testing PEAGNN and baseline models, pass the appropriate arguments to the [``experiments``](experiments) files.
+To reproduce the benchmark results for particular dataset, use the arguments as mentioned in [``experiments/scripts``](experiments/scripts) folder.
 
 For instance, for training PEAGAT model on MovieLens-small dataset run the following command:
 
@@ -128,8 +127,16 @@ For training other baselines e.g. KGAT on MovieLens-small dataset run the follow
 python3 kgat_solver_bpr.py --dataset=Movielens --dataset_name=latest-small --num_core=10 --num_feat_core=10 --sampling_strategy=unseen --entity_aware=false --dropout=0.1 --emb_dim=64 --hidden_size=64 --entity_aware_coff=0.1 --init_eval=false --gpu_idx=0 --runs=5 --epochs=30 --batch_size=1024 --save_every_epoch=26
 ```
 
-
 # Pre-Trained Models available for download
+The pre-trained models for all three datasets used in this paper can be accessed via this [link](https://drive.google.com/drive/folders/1Y9sTnS_TXk3d8Hv5_I061w-iA3lmdU0e?usp=sharing).
 
-The pre-trained models for all three datasets used in this paper can be accessed via this link:
-https://drive.google.com/drive/folders/1Y9sTnS_TXk3d8Hv5_I061w-iA3lmdU0e?usp=sharing
+
+
+
+
+
+
+
+
+
+
