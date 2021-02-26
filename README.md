@@ -1,5 +1,7 @@
+
 # Metapath- and Entity-aware Graph Neural Network for Recommendation
-## Code is available
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metapath-and-entity-aware-graph-neural/link-prediction-on-movielens-25m)](https://paperswithcode.com/sota/link-prediction-on-movielens-25m?p=metapath-and-entity-aware-graph-neural)
 
 ## Introduction
 
