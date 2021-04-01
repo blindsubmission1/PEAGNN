@@ -9,10 +9,13 @@ from .cfkg import CFKGRecsysModel
 from .ngcf import NGCFRecsysModel
 from .nfm import NFMRecsysModel
 from .herec import HeRecRecsysModel
+from .lgc import LGCRecsysModel
+from .xdfm import XDFMRecsysModel
+from .multi_gccf import MultiGCCFRecsysModel
 
 __all__ = [
-    'PEAGCNRecsysModel'
-    'PEAGATRecsysModel'
+    'PEAGCNRecsysModel',
+    'PEAGATRecsysModel',
     'PEASageRecsysModel',
     'KGATRecsysModel', 'KGCNRecsysModel',
     'WalkBasedRecsysModel',
@@ -20,5 +23,8 @@ __all__ = [
     'CFKGRecsysModel',
     'NGCFRecsysModel',
     'NFMRecsysModel',
-    'HeRecRecsysModel'
+    'HeRecRecsysModel',
+    'LGCRecsysModel',
+    'XDFMRecsysModel',
+    'MultiGCCFRecsysModel'
 ]
