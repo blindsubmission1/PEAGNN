@@ -27,6 +27,11 @@ python3 kgcn_solver_bpr.py --dataset=Yelp --num_core=10 --sampling_strategy=rand
 # KGAT
 python3 kgat_solver_bpr.py --dataset=Yelp --num_core=10 --sampling_strategy=random --entity_aware=false --dropout=0.1 --emb_dim=64 --hidden_size=64 --entity_aware_coff=0.1 --init_eval=false --gpu_idx=0 --runs=3 --epochs=20 --batch_size=1024 --save_every_epoch=16
 
+# LGC
+python3 lgc_solver_bpr.py --dataset=Yelp --num_core=10 --sampling_strategy=random --entity_aware=false --dropout=0.1 --emb_dim=64 --hidden_size=16 --entity_aware_coff=0.1 --init_eval=false --gpu_idx=0 --runs=3 --epochs=20 --batch_size=1024 --save_every_epoch=16
+
+# MultiGCCF
+python3 multi_gccf_solver_bpr.py --dataset=Yelp --num_core=10 --sampling_strategy=random --entity_aware=false --dropout=0.1 --emb_dim=64 --hidden_size=64 --repr_dim=16 --entity_aware_coff=0.1 --init_eval=false --gpu_idx=0 --runs=3 --epochs=20 --batch_size=1024 --save_every_epoch=16
 
 # PEAGCN
 # --entity_aware=false
