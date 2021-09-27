@@ -23,7 +23,7 @@ We propose Meta Path- and Entity-Aware Graph Neural Network (PEAGNN), a unified 
 ## Results
 Our model is able to outperform the other competitive baselines on three public datasets, namely: MovieLens-small, MovieLens-25M and Yelp. We use Hit Ratio (HR) and Normalized Discounted Cumulative Gain (NDCG) metrics.
 The performances of PEAGNN variants and baselines are presented below:
-![results](Screenshot 2021-09-27 at 17.16.09.png)
+![results](ECIR2022.png)
 
 ## Requirements and Installation
 * Python 3.6
