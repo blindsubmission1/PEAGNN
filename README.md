@@ -1,5 +1,5 @@
 
-# Metapath- and Entity-aware Graph Neural Network for Recommendation
+# Leveraging the Metapath and Entity Aware Subgraphs for Recommendation
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metapath-and-entity-aware-graph-neural/link-prediction-on-movielens-25m)](https://paperswithcode.com/sota/link-prediction-on-movielens-25m?p=metapath-and-entity-aware-graph-neural)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metapath-and-entity-aware-graph-neural/link-prediction-on-yelp)](https://paperswithcode.com/sota/link-prediction-on-yelp?p=metapath-and-entity-aware-graph-neural)
